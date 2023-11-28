@@ -81,7 +81,7 @@ public class UI {
             System.out.println("CHECKMATE!");
             System.out.print(ANSI_RESET);
             System.out.print(ANSI_GREEN);
-            System.out.println("Winner: " + chessMatch.opponent(chessMatch.getCurrentPlayer()));
+            System.out.println("Winner: " + chessMatch.getCurrentPlayer());
             System.out.println(ANSI_RESET);
         }
     }
